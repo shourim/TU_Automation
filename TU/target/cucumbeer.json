@@ -1,0 +1,76 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Product list page should be displayed",
+        "description": "",
+        "id": "productlist;product-list-page-should-be-displayed",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 30061865797,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am in homepage",
+            "match": {
+              "location": "HomePageStepdef.i_am_in_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2325686367,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter valid product details",
+            "match": {
+              "location": "HomePageStepdef.i_enter_valid_product_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8207207511,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I select search button",
+            "match": {
+              "location": "HomePageStepdef.i_select_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 332521573,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Product list page should displayed",
+            "match": {
+              "location": "ProductListStepdef.product_list_page_should_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@Test"
+          }
+        ]
+      }
+    ],
+    "name": "ProductList",
+    "description": "",
+    "id": "productlist",
+    "keyword": "Feature",
+    "uri": "ProductList.feature"
+  }
+]
